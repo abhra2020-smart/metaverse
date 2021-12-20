@@ -8,7 +8,7 @@ export default function Header() {
     
     return (
         <div className="sticky z-50 top-0 p-5 bg-black text-pink-500">
-            <div className="grid grid-cols-5 lg:grid-cols-6 items-end lg:items-center">
+            <div className="grid items-center grid-cols-5 lg:grid-cols-6">
                 <div className="col-span-4 text-left lg:text-center items-center">
                     <div className="relative h-48 w-48 lg:mx-auto border-pink-500 border-8 rounded-full">
                         <Avatar logoutOnPress />
